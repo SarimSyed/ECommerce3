@@ -3,11 +3,11 @@
 #Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
 #For more information, please see https://aka.ms/containercompat
 
-FROM mcr.microsoft.com/dotnet/aspnet:3.1-nanoserver-1803 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM mcr.microsoft.com/dotnet/sdk:3.1-nanoserver-1803 AS build
+FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
 COPY ["ECommerce.Api.Orders/ECommerce.Api.Orders.csproj", "ECommerce.Api.Orders/"]
 RUN dotnet restore "ECommerce.Api.Orders/ECommerce.Api.Orders.csproj"

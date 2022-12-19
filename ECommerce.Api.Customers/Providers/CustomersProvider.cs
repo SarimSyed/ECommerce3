@@ -28,9 +28,9 @@ namespace ECommerce.Api.Customers.Providers
         {
             if (!dbContext.Customers.Any())
             {
-                dbContext.Customers.Add(new Db.Customer() { Id = 1, Name = "Jessica Smith", Address = "20 Elm St." });
-                dbContext.Customers.Add(new Db.Customer() { Id = 2, Name = "John Smith", Address = "30 Main St." });
-                dbContext.Customers.Add(new Db.Customer() { Id = 3, Name = "William Johnson", Address = "100 10th St." });
+                dbContext.Customers.Add(new Db.Customer() { Id = 1, Name = "Sarim Syed", Address = "Pointe Claire." });
+                dbContext.Customers.Add(new Db.Customer() { Id = 2, Name = "Eh Lo", Address = "Dorval." });
+                dbContext.Customers.Add(new Db.Customer() { Id = 3, Name = "You know", Address = "Wherever." });
                 dbContext.SaveChanges();
             }
         }
