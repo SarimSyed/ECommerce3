@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECommerce.Api.Products</name>
+    </assembly>
+    <members>
+        <member name="M:ECommerce.Api.Products.Controllers.ProductsController.GetProductsAsync">
+            <summary>
+            Get all products
+            </summary>
+            <returns>IActionResult</returns>
+            <response code="200">Returns requested product</response>
+        </member>
+        <member name="M:ECommerce.Api.Products.Controllers.ProductsController.GetProductAsync(System.Int32)">
+            <summary>
+            Get product by provided id
+            </summary>
+            <param name="id">The product id to get by</param>
+            <returns>IActionResult</returns>
+            <response code="200">Returns requested product</response>
+        </member>
+    </members>
+</doc>

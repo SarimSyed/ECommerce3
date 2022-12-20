@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECommerce.Api.Search</name>
+    </assembly>
+    <members>
+        <member name="M:ECommerce.Api.Search.Controllers.SearchController.SearchAsync(ECommerce.Api.Search.Models.SearchTerm)">
+            <summary>
+            Returns order by search term
+            </summary>
+            <param name="term"></param>
+            <returns>IActionResult</returns>
+        </member>
+    </members>
+</doc>

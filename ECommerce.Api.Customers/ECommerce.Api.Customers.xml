@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECommerce.Api.Customers</name>
+    </assembly>
+    <members>
+        <member name="M:ECommerce.Api.Customers.Controllers.CustomersController.GetCustomersAsync">
+            <summary>
+            Returns all customers
+            </summary>
+            <returns>IActionResult</returns>
+            <response code="200">Returns requeested customer</response>
+        </member>
+        <member name="M:ECommerce.Api.Customers.Controllers.CustomersController.GetCustomerAsync(System.Int32)">
+            <summary>
+            Get customer by provided id
+            </summary>
+            <param name="id"></param>
+            <returns>IAction result</returns>
+            <response code="200">Returns requeested customer</response>
+        </member>
+    </members>
+</doc>

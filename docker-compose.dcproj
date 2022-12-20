@@ -9,6 +9,16 @@
     <DockerServiceName>ecommerce.api.customers</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="docker-compose - Copy (2).override.yml">
+      <DependentUpon>docker-compose.yml</DependentUpon>
+    </None>
+    <None Include="docker-compose - Copy - Copy.override.yml">
+      <DependentUpon>docker-compose.asf.yml</DependentUpon>
+    </None>
+    <None Include="docker-compose - Copy.override.yml">
+      <DependentUpon>docker-compose.yml</DependentUpon>
+    </None>
+    <None Include="docker-compose.asf.yml" />
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>

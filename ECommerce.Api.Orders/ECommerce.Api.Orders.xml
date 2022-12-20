@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECommerce.Api.Orders</name>
+    </assembly>
+    <members>
+        <member name="M:ECommerce.Api.Orders.Controllers.OrdersController.GetOrdersAsync(System.Int32)">
+            <summary>
+            Retrieves all orders associated with customer's id
+            </summary>
+            <param name="customerId"></param>
+            <returns>IActionResult</returns>
+            <response code="200">Returns the requested customer orders</response>
+        </member>
+    </members>
+</doc>
